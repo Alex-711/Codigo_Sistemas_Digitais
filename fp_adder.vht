@@ -1,4 +1,4 @@
--- Listing 3.20
+
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
@@ -13,7 +13,7 @@ architecture arch of fp_adder_vhd_tst is
    signal exp_out: std_logic_vector(3 downto 0);
    signal frac_out: std_logic_vector(7 downto 0);
 begin
-   -- instantiate fp adder
+
    fp_add_unit: entity work.fp_adder
       port map(
          sign1=>sign1, sign2=>sign2, exp1=>exp1, exp2=>exp2,
